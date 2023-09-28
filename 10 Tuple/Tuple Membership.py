@@ -1,0 +1,1 @@
+# membership discus previus , like class List, string
