@@ -1,5 +1,12 @@
-# 8 data type in python
-# None, Boolean,Number,String,List,Tuple,Set,Dictonary
+# type in python: 8 types
+# 1==> None
+# 2==>Boolean
+# 3==>Number
+# 4==>String
+# 5==>List
+# 6==>Tuple
+# 7==>Set
+# 8==>Dictonary
 
 
 

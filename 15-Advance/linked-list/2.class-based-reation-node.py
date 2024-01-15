@@ -1,22 +1,17 @@
-# defined node as a data and address of next node
-class Node():
+class ListNode():
     def __init__(self, data) -> None:
         self.data = data
         self.next = None
 
-# Linked list operations
 class LinkedList():
-    # initially set head = None
     def __init__(self) -> None:
         self.head = None
     
-    # check head is none or set value
     def is_empty(self):
         return self.head is None
     
-    # create new node
     def append(self, data):
-        new = Node(data)
+        new = ListNode(data)
         if self.is_empty():
             self.head = new
         else:
@@ -24,7 +19,7 @@ class LinkedList():
             while current.next:
                 current = current.next
             current.next = new 
-    # display node list means linked list
+
     def display(self):
         if self.is_empty():
             print("Empty")

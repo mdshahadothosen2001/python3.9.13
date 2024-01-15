@@ -16,13 +16,11 @@ def merge_linked_lists(list1, list2):
 
     return list1
 
-# assign  linked lists
 list1 = ListNode(1, ListNode(2, ListNode(3)))
 list2 = ListNode(4, ListNode(5, ListNode(6)))
 
 merged_list = merge_linked_lists(list1, list2)
 
-# Display the merged linked list
 while merged_list:
     print(merged_list.val, end=" -> ")
     merged_list = merged_list.next

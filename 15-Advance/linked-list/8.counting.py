@@ -1,14 +1,12 @@
-# defined node as a data and address of next node
-class Node():
+class ListNode():
     def __init__(self, data) -> None:
         self.data = data
         self.next = None
 
 
-# insert the new node to linked list
 class LinkedList:
     def insert(self, head, data):
-        new_node = Node(data)
+        new_node = ListNode(data)
         if head is None or data < head.data:
             new_node.next = head
             return new_node
